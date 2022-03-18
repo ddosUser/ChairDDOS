@@ -11,7 +11,7 @@ def usage():
 	print "#                               | |----|"
 	print "#                                 |    |"
         print "# Command: python2 ChairDDOS.py <IP> <Port> <Packet> "
-        Print "#    Creator: Anacortes"
+        print "#    Creator: Anacortes"
         
 	
 def flood(victim, vport, duration):
