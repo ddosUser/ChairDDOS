@@ -7,7 +7,7 @@ def usage():
 	print "                                         |====|"
 	print "                                         |====|"
 	print "                                         | ------ |"
-	print "                                         |\        \"
+	print "                                         |\        \           "
 	print "                                         | |--------|"
 	print "                                           |         |"
 	print "               Command: python2 ChairDDOS.py <IP> <Port> <Packet> "
